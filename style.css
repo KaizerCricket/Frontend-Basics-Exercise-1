@@ -1,0 +1,39 @@
+body{
+	line-height:1.6em;
+	margin:0;
+}
+.container{
+	overflow:hidden;
+    display: flex;
+}
+#main-header{
+	background-color:pink;
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+#lside{
+    background-color:#feccff;
+    width: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+#content{
+    background-color: lightyellow;
+    flex: 1;
+    padding-left: 10px;
+    padding-bottom: 400px;
+    box-sizing: border-box;
+}
+
+#rside{
+    background-color:paleturquoise;
+    min-width: 100pt;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+	background-color:lavender;
+}
